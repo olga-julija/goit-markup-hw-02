@@ -5,35 +5,38 @@
      --accent-color: #2196F3;
 
  }
- 
- 
- body {
- 
-    font-family: 'Roboto', sans-serif;
+
+ body
+  {
+    color:#212121;
+    font-family: 'Roboto', sans-serif; 
 }
 
-.list {
- list-style: none;
+.header-list{
+list-style: none;
 }
-
-.link {
-text-decoration: none;
-}
-
 .header{
  background-color:#FFFFFF;
+
 }
 
-.header-logo{
+.header-accent{
+    color: #2196F3;
+}
+.header-logo{   
+text-decoration: none;   
 font-family:'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height:1,19 ;
 letter-spacing: spacing 0.03em; 
-color: var(--firste-title-color) ;
+color: var(--firste-title-color);
+
 }
 
+
 .header-link {
+text-decoration: none;  
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
@@ -44,6 +47,9 @@ color: var(--firste-title-color)
 .current{
  color: var(--accent-color)
 }
+.header-list-contact{
+    list-style: none;
+}
 
 .heder-mail:hover,
 .heder-mail:focus{
@@ -51,6 +57,8 @@ color: var(--firste-title-color)
 
 }
 .heder-mail{
+    list-style: none;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -64,6 +72,7 @@ color: var(--firste-title-color)
 }
 
 .header-tel{
+text-decoration: none; 
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
@@ -87,14 +96,18 @@ color: var(--other-color)
  
 
 .hero-btn{
+  cursor: pointer;
  background: #2196F3;
  font-weight: 700;
  font-size: 16px;
  line-height: 1,87;
  letter-spacing: 0.06em;
  color: var(--other-color)
-}
 
+}
+.features-list{
+    list-style: none;
+}
 .features-subtitle{  
     font-weight: 700;
     font-size: 14px;
@@ -108,6 +121,9 @@ color: var(--other-color)
     letter-spacing: 0.03em;
     color: var(--second-title-color) 
 }
+.services-list{
+    list-style: none;  
+}
 .services-title{
     font-weight: 700;
     font-size: 36px;
@@ -115,10 +131,18 @@ color: var(--other-color)
     letter-spacing: 0.03em;
     color: var(--firste-title-color)  
 }
+.personnel-list{
+    list-style: none;
+}
 .personnel{
    background-color:#F5F4FA;
-   
+    border: solid var(--border-color);
+    border-width: 0 0 1px 0;
+    margin-right: auto;
+    margin-left: auto;
+  
 }
+   
 .personnel-title{
     font-weight: 700;
     font-size: 36px;
@@ -144,11 +168,51 @@ color: var(--other-color)
     text-align: center;
     color: var(--second-title-color)
 }
+.filter-list{
+    list-style: none;
+}
+ 
+.filter-link{  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--firste-title-color)
+}
+.filter-btn{
+background-color:#F5F4FA ;
+cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+  background-color:#2196F3;
+  color:#F5F4FA
+}
+.portfolio-list{
+    list-style: none;  
+}
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--firste-title-color)  
+}
+.portfolio-text{
+    font-size: 16px;
+    line-height: 1,85;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)
+}
 
 .footer{
     background-color: #2F303A;
+   
 }
 .footer-logo{
+text-decoration: none;
 font-family:'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -156,13 +220,22 @@ line-height:1,19 ;
 letter-spacing: spacing 0.03em; 
 color: var(--other-color) ;
 }
+.footer-accent{
+color: #2196F3;
+}
+.address{
+    font-style: normal;
+  
+}
 .address-maps{
+    text-decoration: none;
     font-size: 14px;
     line-height: 1,7;
     letter-spacing: 0.03em;
     color: var(--other-color)
 }
 .address-mail{
+    text-decoration: none;
     font-size: 14px;
     line-height: 1,7;
     letter-spacing: 0.03em;

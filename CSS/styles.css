@@ -219,7 +219,7 @@ font-family:'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height:1.19 ;
-letter-spacing: spacing 0.03em; 
+letter-spacing:0.03em; 
 color: var(--other-color) ;
 }
 
